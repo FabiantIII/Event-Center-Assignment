@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PineRidge | About</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="Pineridge-about.css" />
+  </head>
+
+  <body>
+    <!---------------- Navbar ---------------->
+    <div class="nav-container">
+      <nav class="navbar">
+        <a href="#" class="logo"><span>Pine</span>Ridge</a>
+        <i class="fas fa-bars menu-toggle" onclick="toggleMenu()"></i>
+
+        <div id="menu" class="menu">
+          <ul>
+            <li><a href="Pineridge-home.html">Home</a></li>
+            <li><a href="Pineridge-events.html">Events</a></li>
+            <li><a href="Pineridge-about.html" class="active">About</a></li>
+          </ul>
+        </div>
+      </nav>
+      <script>
+        function toggleMenu() {
+          const menu = document.getElementById("menu");
+          menu.classList.toggle("active");
+        }
+      </script>
+    </div>
+
+    <main>
+      <!---------------- Hero Section ---------------->
+      <header class="hero">
+        <div class="hero-overlay"></div>
+
+        <h1>Our Story Begins in the Heart of Napa.</h1>
+        <p>
+          From humble beginnings to a celebrated vineyard estate, learn how our
+          love for winemaking has shaped every bottle and every moment.
+        </p>
+      </header>
+      <div class="wrap-container">
+        <!---------------- Story Section ---------------->
+        <section id="story" class="story">
+          <h2>Our Story</h2>
+          <p>
+            Nestled among rolling hills and sunlit trees, Pine Ridge Winery was
+            founded with a simple belief: great wine begins with great moments.
+          </p>
+
+          <div class="story-content">
+            <div class="story-text slide-in">
+              <p>
+                What started as a quiet passion for handcrafted wine grew into a
+                place where friends, families, and guests gather to celebrate
+                and connect. From our earliest small-batch barrels to the
+                vibrant winery we are today, Pine Ridge remains focused on
+                quality, community, and authentic hospitality. Every bottle
+                reflects our dedication to thoughtful craftsmanship, while every
+                visit is shaped by a genuine desire to create meaningful
+                experiences. Rooted in tradition yet always evolving, Pine Ridge
+                Winery invites guests to slow down, savor the moment, and become
+                part of a story that continues to unfold with each shared glass.
+              </p>
+            </div>
+
+            <div class="story-image slide-right">
+              <img
+                src="https://images.stockcake.com/public/d/9/c/d9c95d39-3c59-4e85-9acc-a7f6d6d6d670_large/vineyard-grape-harvest-stockcake.jpg"
+                alt="Winery landscape"
+              />
+            </div>
+          </div>
+
+          <p>
+            We continue to honor our roots—creating wines with intention and
+            experiences with heart.
+          </p>
+        </section>
+
+        <!---------------- Land Section ---------------->
+        <section class="land">
+          <h2>The Land</h2>
+
+          <p class="land-intro">
+            Our vineyards stretch across sun-kissed hills where rich soil,
+            gentle winds, and generations of care come together to create
+            timeless wines.
+          </p>
+
+          <div class="land-content">
+            <img
+              src="https://churchillmanor.com/wp-content/uploads/2018/07/Panorama-of-Howell-Mountain-Napa-Valley-Wine-Country.jpg"
+              alt="Vineyard landscape"
+            />
+          </div>
+          <p>
+            Pine Ridge sits on fertile ground shaped by decades of natural
+            harmony. Each season brings new character, new flavors, and new
+            stories waiting to be poured into every bottle.
+          </p>
+        </section>
+
+        <!---------------- Philosophy Section ---------------->
+        <section class="philosophy">
+          <h2>Our Philosophy</h2>
+
+          <p>
+            Guided by tradition and grounded in authenticity, our philosophy is
+            rooted in respect — for the craft, the land, and the people who
+            enjoy our wines.
+          </p>
+
+          <div class="philosophy-grid">
+            <div class="philosophy-item">
+              <i class="fa-solid fa-hammer icon-one"></i>
+              <!-- Your icon stays exactly as-is -->
+              <h3>Craftsmanship</h3>
+              <p>
+                Every bottle is the result of careful hands, patient aging, and
+                a dedication to quality above all else.
+              </p>
+            </div>
+
+            <div class="philosophy-item">
+              <i class="fa-solid fa-star icon-two"></i>
+              <!-- Unchanged -->
+              <h3>Sustainability</h3>
+              <p>
+                We cultivate our vineyards with intention, honoring the land
+                that makes our wines possible.
+              </p>
+            </div>
+
+            <div class="philosophy-item">
+              <i class="fa-solid fa-heart icon-three"></i>
+              <!-- Unchanged -->
+              <h3>Community</h3>
+              <p>
+                Our winery thrives on connection — from family roots to the
+                guests who visit year after year.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!---------------- Offering Section ---------------->
+        <section class="offering">
+          <h2>What We Offer</h2>
+
+          <p>
+            From intimate gatherings to unforgettable celebrations, our winery
+            provides a variety of experiences designed to immerse you in the
+            beauty and craft of Pine Ridge.
+          </p>
+
+          <div class="offering-grid">
+            <div class="offering-item">
+              <i class="fa-solid fa-wine-glass"></i>
+              <h3>Wine Tasting</h3>
+              <p>Sample handcrafted selections in a welcoming environment.</p>
+            </div>
+
+            <div class="offering-item">
+              <i class="fa-solid fa-people-group"></i>
+              <h3>Private Events</h3>
+              <p>
+                Weddings, birthdays, and gatherings with a rustic–elegant
+                setting.
+              </p>
+            </div>
+
+            <div class="offering-item">
+              <i class="fa-solid fa-seedling"></i>
+              <h3>Vineyard Tours</h3>
+              <p>Walk the vines, learn our process, and enjoy the scenery.</p>
+            </div>
+          </div>
+        </section>
+
+        <!---------------- Moment Section ---------------->
+        <section class="moment">
+          <h2>A Place Built for Moments</h2>
+          <div class="moment-content">
+            <div class="moment-box">
+              <div class="moment-text">
+                <p>
+                  From sunsets over the vines to the cozy charm of our tasting
+                  room, Pine Ridge Winery creates the perfect setting for
+                  celebrations, getaways, and meaningful moments.
+                </p>
+              </div>
+
+              <div class="moment-image">
+                <img
+                  src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/2c/61/f7/discover-current-releases.jpg?w=700&h=400&s=1"
+                  alt="Event moment"
+                />
+              </div>
+            </div>
+
+            <p>
+              Every visit feels like a breath of fresh air—a chance to slow down
+              and savor life.
+            </p>
+          </div>
+        </section>
+
+        <!---------------- Staff Section ---------------->
+        <section class="staff">
+          <h2>Meet the People Behind the Wine</h2>
+          <p>Behind every bottle is a team dedicated to craft and care.</p>
+
+          <div class="staff-cards">
+            <div class="card-container">
+              <div class="card">
+                <div class="card-image">
+                  <img
+                    src="https://images.stockcake.com/public/b/c/a/bca50771-efb5-46bd-99fb-fe0108a72f98_large/sommelier-selecting-wine-stockcake.jpghttps://images.stockcake.com/public/b/c/a/bca50771-efb5-46bd-99fb-fe0108a72f98_large/sommelier-selecting-wine-stockcake.jpg"
+                  />
+                </div>
+                <div class="card-content">
+                  <h2>Marco Moretti</h2>
+                  <p>Head Winemaker</p>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-image">
+                  <img
+                    src="https://images.stockcake.com/public/2/5/a/25ab7d82-8730-4462-be04-d2dead31798f_large/professional-modern-portrait-stockcake.jpg"
+                  />
+                </div>
+                <div class="card-content">
+                  <h2>Lucas Bennett</h2>
+                  <p>Vineyard Manager</p>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-image">
+                  <img
+                    src="https://images.stockcake.com/public/f/f/3/ff3f4618-18e0-4fea-aebb-a52e44144099_large/confident-professional-portrait-stockcake.jpg"
+                  />
+                </div>
+                <div class="card-content">
+                  <h2>Sophia Alvarez</h2>
+                  <p>Events & Tasting Room Director</p>
+                </div>
+              </div>
+            </div>
+
+            <p>
+              We’re more than a winery—every guest becomes part of our family.
+            </p>
+          </div>
+        </section>
+
+        <!---------------- Comments Section ---------------->
+        <section class="guest-comments">
+          <h2>What Guests Say</h2>
+
+          <div class="comment">
+            <p class="quote">
+              "A peaceful landscape, incredible wine, and unforgettable
+              hospitality."
+            </p>
+            <p class="author">— Alicia R.</p>
+          </div>
+
+          <div class="comment">
+            <p class="quote">
+              "The perfect venue for our celebration. The staff made everything
+              easy!"
+            </p>
+            <p class="author">— Carlos & Jamie</p>
+          </div>
+        </section>
+
+        <!---------------- Visitor Section ---------------->
+        <section class="visit-us">
+          <h2>Come Visit Us</h2>
+          <p>
+            Whether you're here for a tasting, tour, or event—we're excited to
+            welcome you.
+          </p>
+
+          <div class="content">
+            <div class="gallery">
+              <div class="slider-wrapper">
+                <div class="slider">
+                  <img
+                    id="slide-1"
+                    src="https://tock-public.imgix.net/imagesprod/user_uploaded_images_v1/4ba96bf6c375b9d25e3286cc24d4fe7f.jpg?ixlib=js-3.5.1&auto=format&fit=crop&crop=focalpoint&w=1440"
+                    alt="#"
+                  />
+
+                  <img
+                    id="slide-2"
+                    src="https://imageio.forbes.com/specials-images/imageserve/5d41b7cb95e0230008f7219d/Pine-Ridge/0x0.jpg?width=960&dpr=1https://imageio.forbes.com/specials-images/imageserve/5d41b7cb95e0230008f7219d/Pine-Ridge/0x0.jpg?width=960&dpr=1"
+                    alt="#"
+                  />
+
+                  <img
+                    id="slide-3"
+                    src="https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_600,q_80,w_900/v1/crm/napavalley/Pine-Ridge-Vineyards0-29973ef05056a36_299741de-5056-a36a-083368b12ff8ffb1.jpg"
+                    alt="#"
+                  />
+
+                  <img
+                    id="slide-4"
+                    src="http://hauteliving.com/wp-content/uploads/2016/11/0011-Cellar47-161113.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="slider-nav">
+                  <a href="#slide-1"></a>
+                  <a href="#slide-2"></a>
+                  <a href="#slide-3"></a>
+                  <a href="#slide-4"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <p>We’ll raise a glass with you soon.</p>
+        </section>
+
+        <section class="info">
+          <div class="schedule">
+            <h2>Upcoming Events</h2>
+            <div class="table-border">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Date</th>
+                    <th>Event</th>
+                    <th>Location</th>
+                    <th>Price</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Jan 15</td>
+                    <td>Winter Wine Tasting</td>
+                    <td>Main Hall</td>
+                    <td>$45</td>
+                  </tr>
+                  <tr>
+                    <td>Feb 20</td>
+                    <td>Valentine’s Dinner</td>
+                    <td>Vineyard Terrace</td>
+                    <td>$80</td>
+                  </tr>
+                  <tr>
+                    <td>Mar 10</td>
+                    <td>Spring Harvest Tour</td>
+                    <td>Vineyard Grounds</td>
+                    <td>$30</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="border"></div>
+
+          <div class="contactus">
+            <form action="#" method="POST">
+              <div class="contactform">
+                <h2>Questions?</h2>
+                <p>
+                  If you have any feel free to send a message, we will get back
+                  to you.
+                </p>
+                <div class="inputbox">
+                  <input type="text" placeholder="Name" required />
+                </div>
+
+                <div class="inputbox">
+                  <input type="email" placeholder="Email" required />
+                </div>
+
+                <div class="inputbox">
+                  <textarea placeholder="Message" required></textarea>
+                </div>
+
+                <div class="inputbox">
+                  <input type="submit" value="Send" />
+                </div>
+              </div>
+            </form>
+          </div>
+        </section>
+
+        <div class="topper">
+          <a href="#story" class="btn">Top Page</a>
+        </div>
+      </div>
+    </main>
+
+    <!---------------- Footer Section ---------------->
+    <footer>
+      <div class="footer-info">
+        <p>
+          <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a> |
+          <a href="#">Contact Us</a>
+        </p>
+        <p>© 2024 Pine Ridge Winery. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
