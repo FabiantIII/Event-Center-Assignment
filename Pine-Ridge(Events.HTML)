@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PineRidge/event</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="Pineridge-event.css" class="stylesheet" />
+  </head>
+
+  <body>
+    <!---------------- Navbar ---------------->
+    <div class="nav-container">
+      <nav class="navbar">
+        <a href="#" class="logo"><span>Pine</span>Ridge</a>
+        <i class="fas fa-bars menu-toggle" onclick="toggleMenu()"></i>
+
+        <div id="menu" class="menu">
+          <ul>
+            <li><a href="Pineridge-home.Html">Home</a></li>
+            <li>
+              <a href="Pineridge-events.html" class="active">Events</a>
+            </li>
+            <li>
+              <a href="Pineridge-about.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <script>
+        function toggleMenu() {
+          const menu = document.getElementById("menu");
+          menu.classList.toggle("active");
+        }
+      </script>
+    </div>
+
+    <main>
+      <!---------------- Hero Section ---------------->
+      <header class="hero">
+        <div class="hero-overlay"></div>
+
+        <h1>Celebrate Life’s Finest Moments.</h1>
+        <p>
+          From weddings and private dinners to corporate gatherings, our winery
+          offers timeless spaces designed to make every event unforgettable
+        </p>
+        <a href="Pineridge-about.html" class="hero-btn">Explore Winery</a>
+      </header>
+      <div class="wrap-container">
+        <!---------------- Intro Section ---------------->
+        <section id="intro" class="intro">
+          <h2 class="section-header">
+            Host Your Next Unforgettable Event at Pine Ridge Winery
+          </h2>
+          <p>
+            At Pine Ridge Winery, we combine rustic vineyard charm with modern
+            comfort to create the perfect setting for weddings, celebrations,
+            and corporate gatherings. Whether you're planning an intimate
+            ceremony or a large-scale event, our scenic views and handcrafted
+            wines create a one-of-a-kind experience for you and your guests.
+          </p>
+        </section>
+
+        <!---------------- Overview Section ---------------->
+        <section class="overview">
+          <h2 class="section-header">A Venue Surrounded by Nature</h2>
+          <div class="overview-content">
+            <p>
+              Nestled between rolling hills and lush grapevines, Pine Ridge
+              Winery offers versatile indoor and outdoor spaces designed to
+              elevate any occasion. Our dedicated team works with you every step
+              of the way to ensure your event is seamless, memorable, and
+              tailored to your vision.Nestled between rolling hills and lush
+              grapevines, Pine Ridge Winery offers versatile indoor and outdoor
+              spaces designed to elevate any occasion. Our dedicated team works
+              with you every step of the way to ensure your event is seamless,
+              memorable, and tailored to your vision.
+            </p>
+            <div class="hightlight-list">
+              <ul class="list">
+                <div class="row">
+                  <li>Breathtaking vineyard backdrops</li>
+                  <li>Elegant indoor tasting hall</li>
+                  <li>Outdoor terrace for receptions</li>
+                </div>
+                <div class="row">
+                  <li>On-site wine selections for guests</li>
+                  <li>Customizable floor plans</li>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!---------------- Event Section ---------------->
+        <section class="event-types">
+          <h2 class="section-header">Events</h2>
+
+          <div class="events">
+            <h3>Weddings</h3>
+            <p>
+              Say "I do" surrounded by panoramic views of the vineyard. Our
+              property provides romantic ceremony spots, spacious reception
+              areas, and endless photo opportunities. From sunset ceremonies to
+              starlit receptions, your wedding becomes a moment you’ll never
+              forget.
+            </p>
+          </div>
+          <div class="events">
+            <h3>Private Parties</h3>
+            <p>
+              Celebrate birthdays, anniversaries, reunions, or any special
+              milestone with an intimate and personalized event. Our cozy
+              interiors and scenic landscapes set the tone for a relaxing and
+              joyful gathering.
+            </p>
+          </div>
+          <div class="events">
+            <h3>Corporate Events</h3>
+            <p>
+              Whether you're hosting a retreat, team-building day, workshop, or
+              holiday party, Pine Ridge Winery offers a refreshing environment
+              that inspires productivity and connection. AV support and flexible
+              layouts are available
+            </p>
+          </div>
+          <div class="events">
+            <h3>Wine Tastings & Experiences</h3>
+            <p>
+              Enhance your event with curated wine tasting sessions led by our
+              knowledgeable staff. Guests can explore our signature wines, learn
+              about the winemaking process, or enjoy a private barrel-room tour.
+            </p>
+          </div>
+        </section>
+
+        <!---------------- Packages Section ---------------->
+        <section class="event-package">
+          <h2 class="section-header">Event Packages</h2>
+          <div class="packages-section">
+            <p>
+              We offer a variety of packages designed for simplicity and
+              flexibility:
+            </p>
+            <div class="packages">
+              <h3>Classic Celebration Package</h3>
+              <p>
+                Exclusive all-day access to ceremony and reception spaces,
+                bridal and groom prep rooms, coordinated setup, and signature
+                wine offerings.
+              </p>
+            </div>
+            <div class="packages">
+              <h3>Vineyard Wedding Package</h3>
+              <p>
+                A unique atmosphere lined with wine barrels, offering a rustic
+                yet elegant vibe for intimate events, private dinners, and wine
+                experiences.
+              </p>
+            </div>
+            <div class="packages">
+              <h3>Corporate Retreat Package</h3>
+              <p>
+                Includes meeting setup, AV equipment, lunch options, and
+                optional wine tasting or team activities.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!---------------- Event Schedule ---------------->
+        <section class="event-schedule">
+          <h2 class="section-header">Upcoming Winery Events</h2>
+
+          <table class="schedule-table">
+            <caption>
+              Weekly Event Schedule
+            </caption>
+            <thead>
+              <tr>
+                <th>Day</th>
+                <th>Event</th>
+                <th>Time</th>
+                <th>Location</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Friday</td>
+                <td>Evening Wine Tasting</td>
+                <td>6:00 PM – 9:00 PM</td>
+                <td>Tasting Room</td>
+              </tr>
+              <tr>
+                <td>Saturday</td>
+                <td>Vineyard Wedding Tours</td>
+                <td>12:00 PM – 4:00 PM</td>
+                <td>Vineyard Terrace</td>
+              </tr>
+              <tr>
+                <td>Sunday</td>
+                <td>Private Event Showcase</td>
+                <td>1:00 PM – 5:00 PM</td>
+                <td>Barrel Hall</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <!---------------- Venue Section ---------------->
+        <section class="venue-space">
+          <h2 class="section-header">Venues</h2>
+          <div class="venue-section">
+            <div class="venue">
+              <h3>
+                <a href="#" class="venue-link" data-image="vineyard-terrace.jpg"
+                  >The Vineyard Terrace</a
+                >
+              </h3>
+              <p>
+                An open-air setting with expansive views of surrounding hills
+                and rows of grapevines — perfect for outdoor ceremonies,
+                receptions, and cocktail hours.
+              </p>
+            </div>
+
+            <div class="venue">
+              <h3>
+                <a href="#" class="venue-link" data-image="tasting-room.jpg"
+                  >The Tasting Room</a
+                >
+              </h3>
+              <p>
+                A warm, inviting indoor space featuring natural wood accents and
+                soft lighting. Ideal for receptions, dinners, and small
+                celebrations.
+              </p>
+            </div>
+
+            <div class="venue">
+              <h3>
+                <a href="#" class="venue-link" data-image="barrel-hall.jpg"
+                  >The Barrel Hall</a
+                >
+              </h3>
+              <p>
+                A unique atmosphere lined with wine barrels, offering a rustic
+                yet elegant vibe for intimate events, private dinners, and wine
+                experiences.
+              </p>
+            </div>
+
+            <div class="venue">
+              <h3>
+                <a href="#" class="venue-link" data-image="wine-experience.jpg"
+                  >Wine Tastings & Experiences</a
+                >
+              </h3>
+              <p>
+                A large, flexible outdoor lawn space suitable for tents, stages,
+                large ceremonies, and festival-style setups.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-------- Image Preview Modal -------->
+        <div id="venue-modal" class="modal">
+          <span class="modal-close">&#10005;</span>
+
+          <!-- Image container -->
+          <img
+            id="venue-modal-img"
+            class="modal-img"
+            src=""
+            alt="Venue Preview"
+          />
+        </div>
+
+        <!---------------- Amentities Section ---------------->
+        <section class="amenities-services">
+          <h2 class="section-header">
+            Pine Ridge Winery provides a full suite of features to make planning
+            effortless:
+          </h2>
+          <div class="amenities-services-list">
+            <ul class="list">
+              <div class="row">
+                <li>Event coordination and on-site staff</li>
+                <li>Indoor and outdoor seating options</li>
+                <li>Customizable décor setups</li>
+                <li>Professional sound system</li>
+              </div>
+              <div class="row">
+                <li>On-site parking</li>
+                <li>Catering partnerships</li>
+                <li>Exclusive wine packages</li>
+              </div>
+            </ul>
+          </div>
+        </section>
+
+        <!---------------- Info Section ---------------->
+        <section class="info">
+          <div class="guest-comments">
+            <h2 class="section-header">What Guests Say</h2>
+            <div class="comment">
+              <p class="quote">
+                “The winery provided the most beautiful backdrop I could ask
+                for. The staff made everything stress-free.”
+              </p>
+              <p class="author">– Emily R.</p>
+            </div>
+            <div class="comment">
+              <p class="quote">
+                “A perfect venue for our company retreat. Everyone loved the
+                wine tasting!”“A perfect venue for our company retreat. Everyone
+                loved the wine tasting!”
+              </p>
+              <p class="author">– Morgan T.</p>
+            </div>
+          </div>
+
+          <div class="border"></div>
+
+          <div class="contactus">
+            <form action="#" method="POST">
+              <div class="contactform">
+                <h2>Questions?</h2>
+                <p>
+                  If you have any feel free to send a message, we will get back
+                  to you.
+                </p>
+                <div class="inputbox">
+                  <input type="text" placeholder="Name" required />
+                </div>
+
+                <div class="inputbox">
+                  <input type="email" placeholder="Email" required />
+                </div>
+
+                <div class="inputbox">
+                  <textarea placeholder="Message" required></textarea>
+                </div>
+
+                <div class="inputbox">
+                  <input type="submit" value="Send" />
+                </div>
+              </div>
+            </form>
+          </div>
+        </section>
+
+        <div class="topper">
+          <a href="#intro" class="btn">Top Page</a>
+        </div>
+      </div>
+    </main>
+    <!---------------- Footer ---------------->
+    <footer>
+      <div class="footer-info">
+        <p>
+          <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a> |
+          <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        </p>
+
+        <p>@ 2024 My Portfolio. All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <!---------------- Image Peview ---------------->
+    <script>
+      // Select modal + its parts
+      const modal = document.getElementById("venue-modal");
+      const modalImg = document.getElementById("venue-modal-img");
+      const closeBtn = document.querySelector(".modal-close");
+
+      // Add click listener to all venue links
+      document.querySelectorAll(".venue-link").forEach((link) => {
+        link.addEventListener("click", function (event) {
+          event.preventDefault(); // Prevent page from jumping upward
+
+          // ----- KEEP PAGE CENTERED ON CLICKED VENUE -----
+          const rect = this.getBoundingClientRect(); // element's screen position
+          const scrollTop =
+            window.pageYOffset || document.documentElement.scrollTop;
+
+          // Scroll back to same position (prevents jump)
+          window.scrollTo({
+            top: rect.top + scrollTop - 120, // keeps venue title near center
+            behavior: "smooth",
+          });
+
+          // ----- SHOW MODAL -----
+          modal.style.display = "flex";
+
+          // Load correct image from data attribute
+          modalImg.src = this.dataset.image;
+        });
+      });
+
+      // Close modal on X button
+      closeBtn.addEventListener("click", () => {
+        modal.style.display = "none";
+      });
+
+      // Close modal if background is clicked
+      modal.addEventListener("click", (event) => {
+        if (event.target === modal) {
+          modal.style.display = "none";
+        }
+      });
+    </script>
+  </body>
+</html>
