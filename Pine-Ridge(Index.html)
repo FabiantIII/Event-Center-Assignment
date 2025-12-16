@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PineRidge/home</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="Pineridge-home.CSS" class="stylesheet" />
+  </head>
+
+  <body>
+    <!---------------- Navbar ---------------->
+    <div class="nav-container">
+      <nav class="navbar">
+        <a href="#" class="logo"><span>Pine</span>Ridge</a>
+        <i class="fas fa-bars menu-toggle" onclick="toggleMenu()"></i>
+
+        <div id="menu" class="menu">
+          <ul>
+            <li><a href="Pineridge-home.html" class="active">Home</a></li>
+            <li><a href="Pineridge-events.html">Events</a></li>
+            <li><a href="Pineridge-about.html">About</a></li>
+          </ul>
+        </div>
+      </nav>
+      <script>
+        function toggleMenu() {
+          const menu = document.getElementById("menu");
+          menu.classList.toggle("active");
+        }
+      </script>
+    </div>
+
+    <main>
+      <!---------------- Hero Section ---------------->
+      <header class="hero">
+        <div class="hero-overlay"></div>
+        <h1>Experience Pine Ridge Winery</h1>
+        <p>
+          Discover handcrafted wines, stunning vineyards, and unforgettable
+          moments in the heart of Napa Valley.
+        </p>
+        <a href="Pineridge-about.html" class="hero-btn">Explore Winery</a>
+      </header>
+
+      <div class="wrap-container">
+        <!---------------- Wine Section ---------------->
+        <section id="wine-section" class="wine-section">
+          <h2 class="section-title">Wine Selection</h2>
+          <p class="section-subtitle">
+            Our handcrafted selections, curated for every occasion.
+          </p>
+
+          <div class="fade fade-left"></div>
+
+          <div class="wine-scroll">
+            <div class="wine-card">
+              <img
+                src="https://www.pineridgevineyards.com/wp-content/uploads/2025/01/Howell-Mountain-300x-1000-1.webp"
+                alt="Howell Mountain Cabernet Sauvignon"
+              />
+              <p>2022</p>
+              <h3>Howell Mountain Cabernet Sauvignon</h3>
+              <p>$165.00</p>
+            </div>
+
+            <div class="wine-card">
+              <img
+                src="https://www.pineridgevineyards.com/wp-content/uploads/2025/01/Pine-Ridge-Rutherford-Cab_NV_685x685-ILHIYZ-1.webp"
+                alt="Rutherford Cabernet Sauvignon"
+              />
+              <p>2022</p>
+              <h3>Rutherford Cabernet Sauvignon</h3>
+              <p>$125.00</p>
+            </div>
+
+            <div class="wine-card">
+              <img
+                src="https://www.pineridgevineyards.com/wp-content/uploads/2025/01/Pine-Ridge-Rutherford-Cab_NV_685x685-ILHIYZ-1.webp"
+                alt="Rutherford Cabernet Sauvignon"
+              />
+              <p>2023</p>
+              <h3>Rutherford Cabernet Sauvignon</h3>
+              <p>$125.00</p>
+            </div>
+
+            <div class="wine-card">
+              <img
+                src="https://www.pineridgevineyards.com/wp-content/uploads/2025/04/Pine-Ridge-NV-Cabernet_NV_transparent_300x1000.png"
+                alt="Napa Valley Cabernet Sauvignon"
+              />
+              <p>2023</p>
+              <h3>Napa Valley Cabernet Sauvignon</h3>
+              <p>$70.00</p>
+            </div>
+
+            <div class="wine-card">
+              <img
+                src="https://www.pineridgevineyards.com/wp-content/uploads/2025/01/Pine-Ridge-SLD-Cab_NV_transparent_300x1000-1.webp"
+                alt="Stags Leap District Cabernet Sauvignon"
+              />
+              <p>2023</p>
+              <h3>Stags Leap District Cabernet Sauvignon</h3>
+              <p>$142.00</p>
+            </div>
+
+            <div class="wine-card">
+              <img
+                src="https://www.pineridgevineyards.com/wp-content/uploads/2025/01/PRV_CarnerosCab_NV_Transparent_300x1000-1.webp"
+                alt="Carneros Cabernet Sauvignon"
+              />
+              <p>2022</p>
+              <h3>Carneros Cabernet Sauvignon</h3>
+              <p>$125.00</p>
+            </div>
+
+            <div class="wine-card">
+              <img
+                src="https://www.pineridgevineyards.com/wp-content/uploads/2025/01/PRV-2021-Black-Diamond-Cab-Sauv_300x1000-1.webp"
+                alt="Black Diamond Cabernet Sauvignon"
+              />
+              <p>2022</p>
+              <h3>Black Diamond Cabernet Sauvignon</h3>
+              <p>$75.00</p>
+            </div>
+
+            <div class="wine-card">
+              <img
+                src="https://www.pineridgevineyards.com/wp-content/uploads/2025/01/Petit-Verdot-2021-300x1000-1-1.webp"
+                alt="Petit Verdot"
+              />
+              <p>2021</p>
+              <h3>Petit Verdot</h3>
+              <p>$75.00</p>
+            </div>
+
+            <div class="wine-card">
+              <img
+                src="https://www.pineridgevineyards.com/wp-content/uploads/2025/01/PRV_Malbec_NV_transparent_300x1000-1.webp"
+                alt="Malbec"
+              />
+              <p>2021</p>
+              <h3>Malbec</h3>
+              <p>$75.00</p>
+            </div>
+          </div>
+
+          <div class="fade fade-right"></div>
+        </section>
+        <!------------ Schedule/Gallery Section ------------>
+        <section class="schedule-gallery">
+          <!------------ Schedule Section ------------>
+          <div class="schedule-wrapper">
+            <!-- add borders or make simlar to layout of about page -->
+            <div class="schedule">
+              <h3 class="schedule-title">Hours of Operation</h3>
+
+              <table>
+                <tr>
+                  <th>Days</th>
+                  <th>Hours</th>
+                </tr>
+                <tr>
+                  <td>Monday</td>
+                  <td>11:00am - 8:00pm</td>
+                </tr>
+                <tr>
+                  <td>Tuesday</td>
+                  <td>11:00am - 8:00pm</td>
+                </tr>
+                <tr>
+                  <td>Wednesday</td>
+                  <td>11:00am - 8:00pm</td>
+                </tr>
+                <tr>
+                  <td>Thursday</td>
+                  <td>Closed</td>
+                </tr>
+                <tr>
+                  <td>Friday</td>
+                  <td>11:00am - 9:00pm</td>
+                </tr>
+                <tr>
+                  <td>Saturday</td>
+                  <td>11:00am - 9:00pm</td>
+                </tr>
+                <tr>
+                  <td>Sunday</td>
+                  <td>11:00am - 9:00pm</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <!------------ Gallery Section ------------>
+          <div class="gallery-wrapper">
+            <div class="gallery">
+              <div class="slider-wrapper">
+                <div class="slider">
+                  <img
+                    id="slide-1"
+                    src="https://tock-public.imgix.net/imagesprod/user_uploaded_images_v1/4ba96bf6c375b9d25e3286cc24d4fe7f.jpg?ixlib=js-3.5.1&auto=format&fit=crop&crop=focalpoint&w=1440"
+                    alt="#"
+                  />
+
+                  <img
+                    id="slide-2"
+                    src="https://imageio.forbes.com/specials-images/imageserve/5d41b7cb95e0230008f7219d/Pine-Ridge/0x0.jpg?width=960&dpr=1https://imageio.forbes.com/specials-images/imageserve/5d41b7cb95e0230008f7219d/Pine-Ridge/0x0.jpg?width=960&dpr=1"
+                    alt="#"
+                  />
+
+                  <img
+                    id="slide-3"
+                    src="https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_600,q_80,w_900/v1/crm/napavalley/Pine-Ridge-Vineyards0-29973ef05056a36_299741de-5056-a36a-083368b12ff8ffb1.jpg"
+                    alt="#"
+                  />
+
+                  <img
+                    id="slide-4"
+                    src="http://hauteliving.com/wp-content/uploads/2016/11/0011-Cellar47-161113.jpg"
+                    alt="#"
+                  />
+                </div>
+                <div class="slider-nav">
+                  <a href="#slide-1"></a>
+                  <a href="#slide-2"></a>
+                  <a href="#slide-3"></a>
+                  <a href="#slide-4"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!---------------- Info Section ---------------->
+      <section class="info">
+        <!------------ Description Section ------------>
+        <div class="description">
+          <h2>Get to know us</h2>
+
+          <p>
+            Pine Ridge Winery is a peaceful retreat where handcrafted wines and
+            natural beauty come together. Nestled among rolling pines and open
+            landscapes, it’s a place to sip, savor, and celebrate life’s special
+            moments.
+          </p>
+
+          <p class="bottom-p">
+            Whether guests are visiting for a quiet afternoon tasting or a
+            once-in-a-lifetime celebration, Pine Ridge Winery offers an inviting
+            atmosphere rooted in craftsmanship, hospitality, and tradition.
+          </p>
+        </div>
+
+        <div class="border"></div>
+
+        <!------------ Questions Section ------------>
+        <div class="contactus">
+          <form action="#" method="POST">
+            <div class="contactform">
+              <h2>Questions?</h2>
+              <p>
+                If you have any feel free to send a message, we will get back to
+                you.
+              </p>
+              <div class="inputbox">
+                <input type="text" placeholder="Name" required />
+              </div>
+
+              <div class="inputbox">
+                <input type="email" placeholder="Email" required />
+              </div>
+
+              <div class="inputbox">
+                <textarea placeholder="Message" required></textarea>
+              </div>
+
+              <div class="inputbox">
+                <input type="submit" value="Send" />
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+      <div class="topper">
+        <a href="#wine-section" class="btn">Top Page</a>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-info">
+        <p>
+          <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a> |
+          <a href="#">Contact Us</a>
+        </p>
+        <p>@ 2024 My Portfolio. All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <script>
+      // Select the horizontal scroll container
+      const slider = document.querySelector(".wine-scroll");
+
+      // Variables used to track dragging state
+      let isDown = false; // True when mouse is held down
+      let startX; // Mouse position when drag starts
+      let scrollLeft; // Slider's scroll position when drag starts
+
+      // When user presses mouse button down
+      slider.addEventListener("mousedown", (e) => {
+        isDown = true; // User is now dragging
+        slider.classList.add("active"); // Optional: for styling while dragging
+        startX = e.pageX - slider.offsetLeft; // Mouse X relative to slider
+        scrollLeft = slider.scrollLeft; // Save current scroll position
+      });
+
+      // When mouse leaves the container → stop dragging
+      slider.addEventListener("mouseleave", () => {
+        isDown = false;
+      });
+
+      // When mouse button is released → stop dragging
+      slider.addEventListener("mouseup", () => {
+        isDown = false;
+      });
+
+      // When user moves the mouse
+      slider.addEventListener("mousemove", (e) => {
+        if (!isDown) return; // Only run if dragging
+        e.preventDefault(); // Stop text/image selection during drag
+
+        // Current mouse X position relative to slider
+        const x = e.pageX - slider.offsetLeft;
+
+        // Distance moved since drag started
+        const walk = (x - startX) * 2; // Multiply for faster scroll speed
+
+        // Update scroll position (dragging effect)
+        slider.scrollLeft = scrollLeft - walk;
+      });
+    </script>
+  </body>
+</html>
